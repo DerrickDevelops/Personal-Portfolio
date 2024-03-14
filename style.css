@@ -872,7 +872,8 @@ footer {
   }
 
   .to-top p {
-    /* Add styles for mobile here */
+   color: #252422;
+opacity: 40%;
   }
   .nametag {
     display: flex;
