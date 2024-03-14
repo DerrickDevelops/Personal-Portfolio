@@ -89,6 +89,7 @@ nav {
 .mobile-contact-toggle {
   width: 50px;
   height: 50px;
+  margin-top: 15px;
   font-size: 1.2rem;
   background: #FFFCF2;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
@@ -143,7 +144,7 @@ nav {
 main {
   position: fixed;
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   grid-column: 1/5;
   grid-row: 1/10;
   display: flex;
@@ -169,7 +170,7 @@ h2 {
 
 h1 {
   /* font-size: 75px; */
-  font-size: clamp(2.5rem, 5vw, 4.68rem);
+  font-size: clamp(1.5rem, 5vw, 4.68rem);
   letter-spacing: 5px;
   line-height: 140px;
   color: #252422;
@@ -179,20 +180,19 @@ h1 {
 
 .header span {
   position: absolute;
-  /* font-size: 80px; */
-  font-size: clamp(3rem, 5vw, 4.5rem);
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
   opacity: 30%;
 }
 .span-1 {
   display: inline-block;
   transform: scale(-1, 1);
   margin: 2px 0 0 -60px;
+  border: 2;
 }
 
 /* "And" Section Styles */
 .and {
-  /* font-size: 64px; */
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(1.7rem, 5vw, 4rem);
   margin-top: 40px;
   opacity: 60%;
   color: #403539;
@@ -310,8 +310,8 @@ h1 {
   flex: 1 1 auto;
   margin: 20px 20px;
   position: relative;
-  width: clamp(35rem, 60vw, 50rem);
-  height: clamp(25rem, 60vw, 35rem);
+  width: clamp(20rem, 90vw, 50rem);
+  height: 35rem;
   background: linear-gradient(to top, #343434 0%, #101010 80%);
   border-radius: 8px;
   overflow: hidden;
@@ -344,15 +344,15 @@ h1 {
   text-align: left;
   padding: 5px 30px;
 }
-.info .project-title {
+.project-title {
   color: #f2f6f6;
   font-size: 22px;
 }
-.info .tool-list {
+.tool-list {
   color: #f2f6f6;
   font-size: 16px;
 }
-.info .project-links {
+.project-links {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -393,7 +393,7 @@ h1 {
   
 }
 .about-description {
-  width: clamp(35rem, 60vw, 60rem);
+  width: clamp(23rem, 60vw, 60rem);
   height: clamp(25rem, 60vw, 50rem);
 }
 .description-text {
@@ -474,8 +474,10 @@ spline-viewer {
   align-items: center;
   color: #d7d7d7;
   letter-spacing: 1px;
-  width: clamp(2rem, 20vw, 13rem);
-  height: clamp(3rem, 20vw, 5rem);
+  width: 13rem;
+  height: 5rem;
+  /* width: clamp(2rem, 20vw, 13rem);
+  height: clamp(3rem, 20vw, 5rem); */
   margin: 5px 5px;
   font-size: 26px;
   border: 3px solid #ccc;
@@ -508,7 +510,7 @@ footer {
   gap: 4rem;
 }
 .contact-links a {
-  font-size: clamp(2rem, 6vw, 4rem);
+  font-size: clamp(1rem, 6vw, 4rem);
   color: #101010;
   opacity: 40%;
 }
@@ -525,7 +527,7 @@ footer {
   opacity: 40%;
 }
 .to-top i{
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1rem, 4vw, 3rem);
 }
 .to-top p {
   font-size: clamp(1rem, 3vw, 2rem);
@@ -552,11 +554,11 @@ footer {
   color: #403D39;
 }
 .name {
-  font-size: clamp(1rem, 2vw, 2rem);
+  font-size: 2rem;
   letter-spacing: 2px;
 }
 .time {
-  font-size: clamp(1rem, 2vw, 2rem);
+  font-size: 2rem;
 }
 #timeStamp {
   opacity: 40%;
@@ -586,19 +588,19 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     font-size: 18px;
-    inset: 0 0 0 50%;
+    inset: 0 0 0 30%;
     flex-direction: column;
     padding: min(30vh, 5rem) 2em;
     background: hsl(0 0% 100% / 0.5);
     backdrop-filter: blur(1rem);
     -webkit-backdrop-filter: blur(1rem);
-    transform: translateX(120%);
+    transform: translateX(115%);
     transition: transform 350ms ease-in;
     border-radius: 15px 0 0 15px;
+    
     }
     .primary-navigation[data-visible="true"] {		
       transform: translateX(15%);
-  
     }
   
     .mobile-nav-toggle {
@@ -631,29 +633,29 @@ footer {
   }
 
   h2 {
-    font-size: 1.3rem;
+    
   }
 
   h1 {
-    line-height: 90px;
+    line-height: 60px;
   }
 
   .header span {
     /* Add styles for mobile here */
   }
   .span-1 {
-    margin-left: -45px;
+    margin-left: -40px;
   }
   /* And Section Styles */
   .and {
     z-index: 1;
-    margin-bottom: 5px;
+    margin-bottom: 13px;
   }
 
   /* Sphere Section Styles */
   .sphere {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
   }
 
   .planet-container {
@@ -662,7 +664,8 @@ footer {
   }
 
   .planet {
-    /* Add styles for mobile here */
+    width: 200px;
+    height: 200px;
   }
 
   .first-planet {
@@ -678,22 +681,22 @@ footer {
   }
   @keyframes rotate {
     0% {
-      transform: translate(-300px, 50px)
+      transform: translate(-260px, 10px)
       scale(0.15);
       z-index: -1;
     }
     50% {
-      transform: translate(160px, -100px)
+      transform: translate(35px, -75px)
       scale(0.2);
       z-index: -1;
     }
     51% {
-      transform: translate(160px, -100px)
+      transform: translate(35px, -75px)
       scale(0.2);
       z-index: 3;
     }
     100% {
-      transform: translate(-300px, 50px)
+      transform: translate(-260px, 10px)
       scale(0.15);
       z-index: 3;
     }
@@ -701,20 +704,25 @@ footer {
 
   /* Featured Projects Section Styles */
   .featured {
-    grid-row: 10/32;
+    grid-row: 10/22;
+    border-radius: 15px 15px 0 0;
   }
-
+   h4 {
+    font-size: 15px;
+  }
   .featured h3 {
-    font-size: 4rem;
+    font-size: 2.6rem;
   }
   .top-projects {
     flex-direction: column;
+
   }
   .bottom-projects {
     flex-direction: column;
   }
 
   .new-feature {
+    height: 15rem;
     margin-bottom: 30px;
   }
 
@@ -731,34 +739,42 @@ footer {
   }
 
   .info {
-    /* Add styles for mobile here */
+    height: 3rem;
   }
 
   .info p {
-    /* Add styles for mobile here */
+    padding: 3px 20px;
   }
 
-  .info .project-title {
-    /* Add styles for mobile here */
+  .project-title {
+    font-size: 16px;
   }
 
-  .info .tool-list {
-    /* Add styles for mobile here */
+  .tool-list {
+    font-size: 8px;
   }
 
-  .info .project-links {
-    /* Add styles for mobile here */
+  .project-links {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin-top: -35px;
+    text-decoration: none;
+    color: #f2f6f6;
   }
 
   .project-links a {
-    /* Add styles for mobile here */
+    font-size: 12px;
   }
 
   /* About Section Styles */
   .about-container {
     display: flex;
-    grid-row: 32/47;
+    grid-row: 22/36;
     padding-top: 5rem;
+  }
+  .about-container h3 {
+    font-size: 3rem;
   }
 
   .about-content {
@@ -784,7 +800,7 @@ footer {
   }
   .spline {
     width: 100%;
-    height: 40rem;
+    height: 30rem;
     
   }
 
@@ -797,11 +813,15 @@ footer {
 
   /* Skills Section Styles */
   .skills {
-    grid-row: 47/50;
+    grid-row: 36/40;
+    border-radius: 0 0 15px 15px;
+  }
+  .skills h4 {
+    font-size: 15px;
   }
 
   .skills h3 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .list {
@@ -810,13 +830,15 @@ footer {
     margin: 25px 1rem;
   }
 
-  .skills .list p {
-    font-size: 18px;
+  .list p {
+    font-size: 12px;
+    width: 6rem;
+    height: 3rem;
   }
 
   /* Footer Styles */
   footer {
-    grid-row: 50/55;
+    grid-row: 40/43;
   }
 
   .contact {
@@ -824,12 +846,13 @@ footer {
   }
 
   .contact-txt p {
-    /* Add styles for mobile here */
+    font-size: 2.5rem;
   }
 
   .contact-links {
-    gap: 3rem;
-    margin-top: 20px;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+    margin-top: 10px;
   }
 
   .contact-links a {
@@ -837,7 +860,7 @@ footer {
   }
 
   .to-top {
-    margin-top: 3rem;
+    margin-top: 15px;
   }
 
   .to-top a {
@@ -851,8 +874,22 @@ footer {
   .to-top p {
     /* Add styles for mobile here */
   }
+  .nametag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2rem;
+    
+  }
   .name {
     letter-spacing: 1px;
+    font-size: 1rem;
+    order: 2;
+  }
+  .time {
+    font-size: 1rem;
+    order: 1;
   }
 
   /* Additional Styles */
@@ -1052,7 +1089,6 @@ footer {
 
   /* Footer Styles */
   footer {
-    /* Add styles for tablets here */
   }
 
   .contact {
