@@ -338,7 +338,7 @@ h1 {
   width: 100%;
   background: #252422;
   z-index: 5;
-  opacity: 80%;
+  opacity: 85%;
 }
 .info p {
   text-align: left;
@@ -752,13 +752,14 @@ footer {
 
   .tool-list {
     font-size: 8px;
+    margin-top: -6px;
   }
 
   .project-links {
     display: flex;
     justify-content: flex-end;
     font-size: 12px;
-    margin-top: -35px;
+    margin-top: -25px;
     text-decoration: none;
     color: #f2f6f6;
   }
@@ -872,7 +873,7 @@ footer {
   }
 
   .to-top p {
-    /* Add styles for mobile here */
+    margin-top: -5px;
   }
   .nametag {
     display: flex;
@@ -884,7 +885,7 @@ footer {
   }
   .name {
     letter-spacing: 1px;
-    font-size: 1rem;
+    font-size: 12px;
     order: 2;
   }
   .time {
