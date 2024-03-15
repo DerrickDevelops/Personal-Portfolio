@@ -874,6 +874,8 @@ footer {
 
   .to-top p {
     margin-top: -5px;
+	  color: #252422;
+  opacity: 40%;
   }
   .nametag {
     display: flex;
