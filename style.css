@@ -531,6 +531,8 @@ footer {
 }
 .to-top p {
   font-size: clamp(1rem, 3vw, 2rem);
+	color: #252422;
+	opacity: 60%;
 }
 .circle {
   position: absolute;
@@ -874,8 +876,6 @@ footer {
 
   .to-top p {
     margin-top: -5px;
-	  color: #252422;
-  opacity: 80%;
   }
   .nametag {
     display: flex;
