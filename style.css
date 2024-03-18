@@ -728,16 +728,17 @@ footer {
     margin-bottom: 30px;
   }
 
-  .project-1 {
-    /* Add styles for mobile here */
+  .project1 {
+	order: 1;  
   }
-
-  .project-1 img {
-    /* Add styles for mobile here */
+.project2 {
+	  order: 2;
   }
-
-  .img1:hover {
-    /* Add styles for mobile here */
+.project3 {
+	  order: 4;
+  }
+.project4 {
+	  order: 3;
   }
 
   .info {
