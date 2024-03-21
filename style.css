@@ -144,7 +144,7 @@ nav {
 main {
   position: fixed;
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   grid-column: 1/5;
   grid-row: 1/10;
   display: flex;
@@ -422,8 +422,13 @@ h1 {
   background: rgba(64, 61, 57, 0.5);
   border-radius: 5px;
 }
-.about-description span {
+h6 span {
   opacity: 20%;
+}
+.description-text span {
+  color: #252422;
+  background: #CCC5B9;
+  padding: 0 2px;
 }
 spline-viewer {
 
@@ -580,6 +585,7 @@ footer {
   nav {
     /* Add styles for mobile here */
   }
+
   .mobile-contact-toggle {
     cursor: pointer;
   }
