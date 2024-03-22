@@ -605,7 +605,6 @@ footer {
     transform: translateX(115%);
     transition: transform 350ms ease-in;
     border-radius: 15px 0 0 15px;
-
     }
     .primary-navigation[data-visible="true"] {
       transform: translateX(15%);
@@ -627,8 +626,26 @@ footer {
     }
     .mobile-nav-toggle[aria-expanded="true"] {
     position: fixed;
-
     }
+    
+    .mobile-nav-toggle i.fa-x {
+      font-size: 1.5rem;
+    }
+
+    /* Define the spin animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.mobile-nav-toggle i {
+  transition: opacity 0.5s ease; /* Add a transition for smooth opacity change */
+}
+
+.mobile-nav-toggle.clicked i {
+  opacity: 0; /* Set opacity to 0 when button is clicked */
+}
+
 
   /* Main Content Styles */
   main {
