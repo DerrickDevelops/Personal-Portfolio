@@ -601,7 +601,7 @@ footer {
     inset: 0 0 0 30%;
     flex-direction: column;
     padding: min(30vh, 5rem) 2em;
-    background: rgba(64, 61, 57, 0.5);
+    background: rgba(64, 61, 57, 0.2);
     backdrop-filter: blur(1rem);
     -webkit-backdrop-filter: blur(1rem);
     transform: translateX(115%);
