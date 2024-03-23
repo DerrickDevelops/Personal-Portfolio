@@ -595,7 +595,9 @@ footer {
     position: fixed;
     justify-content: flex-start;
     align-items: flex-start;
-    font-size: 18px;
+	  font-weight: 600;
+    font-size: 1.5rem;
+	  gap: 2.5rem;
     inset: 0 0 0 30%;
     flex-direction: column;
     padding: min(30vh, 5rem) 2em;
