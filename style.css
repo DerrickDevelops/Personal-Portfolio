@@ -409,7 +409,8 @@ h1 {
   display: flex;
   padding-bottom: 1rem;
   font-size: clamp(1rem, 5vw, 4rem);
-  color: #FFFCF2;
+  color: #CCC5B9;
+  opacity: 100%;
 }
 .about-description h6 {
   display: flex;
@@ -573,7 +574,7 @@ footer {
 
 
 /* Mobile Styles */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px){
   /* General Styles */
   * {
 
@@ -828,7 +829,7 @@ footer {
   .spline {
     width: 100%;
     height: 30rem;
-
+ 
   }
 
   .about-content .spline {
@@ -942,13 +943,16 @@ footer {
   nav {
     /* Add styles for tablets here */
   }
+  .primary-contact {
+    font-size: 1.2rem;
+  }
 
-  .nav-menu ul {
-    /* Add styles for tablets here */
+  .primary-navigation a {
+    font-size: 1.2rem;
   }
 
   .nav-menu a {
-    /* Add styles for tablets here */
+    
   }
 
   .nav-menu a:hover {
@@ -1069,38 +1073,46 @@ footer {
   }
 
   /* About Section Styles */
-  .about {
+  .about-container {
+    grid-row: 27/42;
     display: flex;
+    padding-top: 2rem;
+  }
+  .about-container h3 {
+    font-size: 3rem;
   }
 
-  .about h3 {
-    /* Add styles for mobile here */
-  }
-
-  .description {
+  .about-content {
     display: flex;
+    height: 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+  }
+  .about-description {
+    padding: 0 10px;
+    order: 2;
   }
 
-  .description p {
+  .description-text {
     width: 100%;
-    font-size: 18px;
-    padding: 80px 10px;
+    font-size: 1.3rem;
   }
-
+   .about-description h6 {
+    font-size: 2rem;
+  }
   .spline {
     width: 100%;
-    height: 40rem;
-  }
-
-  .description .spline {
-    order: -1;
+    height: 30rem;
+    order: 1;
   }
 
   /* Skills Section Styles */
   .skills {
-    /* Add styles for tablets here */
+    grid-row: 42/44;
   }
 
   .skills h3 {
@@ -1110,44 +1122,37 @@ footer {
   .list {
     padding: 2rem 0;
   }
-
-  .skills .list p {
+  .list p {
+    font-size: 1.2rem;
+    width: 10rem;
+    height: 4rem;
   }
 
   /* Footer Styles */
   footer {
+    grid-row: 44/49;
+  }
+
+  .circle {
+    margin-top: -11rem;
   }
 
   .contact {
     /* Add styles for tablets here */
   }
-
-  .contact-txt p {
-    /* Add styles for tablets here */
+  .nametag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-
-  .contact-links {
-    /* Add styles for tablets here */
+  .name {
+    font-size: 1.5rem;
+    order: 2;
   }
-
-  .contact-links a {
-    /* Add styles for tablets here */
-  }
-
-  .to-top {
-    /* Add styles for tablets here */
-  }
-
-  .to-top a {
-    /* Add styles for tablets here */
-  }
-
-  .to-top i {
-    /* Add styles for tablets here */
-  }
-
-  .to-top p {
-    /* Add styles for tablets here */
+  .time {
+    font-size: 1.5rem;
+    order: 1;
   }
 
   /* Additional Styles */
