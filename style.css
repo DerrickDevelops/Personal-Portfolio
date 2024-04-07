@@ -70,6 +70,7 @@ nav {
   font-size: 1.6rem;
   cursor: pointer;
 	z-index: 199;
+	cursor: pointer;
 }
 .direct-contact a:hover {
   opacity: 99%;
