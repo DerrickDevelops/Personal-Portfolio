@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Poppins:wght@500&family=Space+Mono&display=swap" rel="stylesheet">
+    <title>404 - Page Not Found</title>
+   <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background: #FFFCF2;
+        font-family: 'Poppins';
+    }
+
+    .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5rem;
+
+    }
+
+    .main-text {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .number {
+        font-size: clamp(4rem, 30vw, 12rem);
+        font-weight: 600;
+        color: #CCC5B9;
+    }
+
+    .sphere {
+        width: clamp(9rem, 30vw, 16rem);
+        height: clamp(9rem, 30vw, 16rem);
+        margin-top: 2rem;
+        border-radius: 50%;
+        background: linear-gradient(180deg, #CCC5B9 10%, #FFFCF2 60%);
+    }
+
+    .sub-heading p {
+        font-size: clamp(1rem, 3vw, 2rem);
+        color: #CCC5B9;
+        margin-top: -5rem;
+    }
+
+    button {
+        margin-top: -5rem;
+        padding: 0.8rem 3rem;
+        background: #CCC5B9;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    a {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #FFFCF2;
+        text-decoration: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .main-text {
+            gap: 1rem;
+        }
+    }
+
+
+   </style>
+</head>
+<body>
+    <div class="container">
+    <div class="main-text">
+        <div class="number">4</div>
+        <div class="sphere"></div>
+        <div class="number">4</div>
+    </div>
+        <div class="sub-heading">
+            <p>Sorry, this project isn't finished yet. :(</p>
+        </div>
+        <button><a href="index.html">Back</a></button>
+    </div>
+</body>
+</html>
