@@ -66,6 +66,7 @@ window.addEventListener('scroll', function() {
 	setInterval(updateTime, 60000);
   });
 
+document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
 //   const primaryNav = document.querySelector(".primary-navigation");
