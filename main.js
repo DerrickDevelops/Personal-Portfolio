@@ -12,11 +12,11 @@ navToggle.addEventListener("click", () => {
     primaryNav.setAttribute("data-visible", true);
     navToggle.setAttribute("aria-expanded", true);
     menuIcon.classList.remove("fa-bars");
-    menuIcon.classList.add("fa-x");
+    menuIcon.classList.add("fa-arrow-right");
   } else if (visibility === "true") {
     primaryNav.setAttribute("data-visible", false);
     navToggle.setAttribute("aria-expanded", false);
-    menuIcon.classList.remove("fa-x");
+    menuIcon.classList.remove("fa-arrow-right");
     menuIcon.classList.add("fa-bars");
   }
 });
