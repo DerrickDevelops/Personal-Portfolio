@@ -120,6 +120,9 @@ nav {
   transition: 0.75s;
 }
 
+li span {
+  display: none;
+}
 /* .primary-navigation ul {
   height: 80px;
   width: 60%;
