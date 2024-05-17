@@ -657,6 +657,13 @@ footer {
   opacity: 0; /* Set opacity to 0 when button is clicked */
 }
 
+li span {
+  display: flex;
+  font-size: 1.2rem;
+  line-height: 1rem;
+  opacity: 60%;
+}
+
 
   /* Main Content Styles */
   main {
