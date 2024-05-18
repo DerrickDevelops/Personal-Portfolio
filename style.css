@@ -271,7 +271,7 @@ h1 {
 	width: 12px;
 	margin: 0 auto;
 	position: absolute;
-  bottom: 3rem;
+ 	bottom: 6rem;
 	opacity: .5;
 	&::before,
 	&::after {
