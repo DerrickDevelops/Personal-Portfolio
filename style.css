@@ -577,7 +577,7 @@ spline-viewer {
   height: clamp(3rem, 20vw, 5rem); */
   margin: 5px 5px;
   font-size: 26px;
-  border: 3px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 10px;
 }
 footer {
