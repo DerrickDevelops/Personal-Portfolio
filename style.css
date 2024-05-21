@@ -969,7 +969,7 @@ li span {
   .list {
     /* display: flex;
     justify-content: flex-start; */
-    margin: 25px 1rem;
+    margin: 1rem 1rem;
   }
 
   .list p {
