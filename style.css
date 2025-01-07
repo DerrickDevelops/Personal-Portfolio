@@ -80,7 +80,6 @@ nav {
   opacity: 40%;
 }
 .direct-contact a {
-  margin-left: 20px;
   color: #252422;
   opacity: 40%;
 }
@@ -273,7 +272,7 @@ h1 {
 	margin: 0 auto;
 	position: absolute;
  	bottom: 8.5rem;
-	opacity: .5;
+	opacity: .8;
 	&::before,
 	&::after {
 		content: '';
@@ -577,7 +576,7 @@ spline-viewer {
   height: clamp(3rem, 20vw, 5rem); */
   margin: 5px 5px;
   font-size: 26px;
-  border: 3px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 10px;
 }
 footer {
@@ -957,17 +956,19 @@ li span {
     border-radius: 0 0 15px 15px;
   }
   .skills h4 {
+	  margin-top: 0.5rem;
     font-size: 15px;
   }
 
   .skills h3 {
+	  margin-top: 0.5rem;
     font-size: 3rem;
   }
 
   .list {
     /* display: flex;
     justify-content: flex-start; */
-    margin: 25px 1rem;
+    margin: 1rem 1rem;
   }
 
   .list p {
