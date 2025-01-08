@@ -260,12 +260,12 @@ h1 {
 	51% {
 		transform: translate(280px, -50px)
 		scale(0.2);
-		z-index: 3;
+		z-index: 5;
   }
 	100% {
 		transform: translate(-300px, 50px)
 		scale(0.15);
-		z-index: 3;
+		z-index: 5;
 	}
 }
 
@@ -800,6 +800,10 @@ li span {
   .planet-container {
     top: 20rem;
     left: 13rem;
+  }
+
+  .route {
+    margin-top: 2rem;
   }
 
   .planet {
