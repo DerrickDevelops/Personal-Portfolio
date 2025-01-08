@@ -219,10 +219,15 @@ h1 {
 .planet-container {
 	position: absolute;
   top: 40%;
-  left: 44%;
+  left: 43.5%;
   transform: translate(-50%, -50%);
   z-index: 0;
 }
+
+.route {
+  margin-left: -1rem;
+}
+
 .planet {
 	position: absolute;
 	height: 250px;
@@ -230,6 +235,7 @@ h1 {
 	border-radius: 50%;
 	animation: rotate 10s ease-in-out infinite;
 }
+
 .first-planet {
   background: linear-gradient(120deg, #EEE7CE, #064439);
   animation-delay: -0.9s;
@@ -803,7 +809,7 @@ li span {
   }
 
   .route {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .planet {
