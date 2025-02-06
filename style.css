@@ -161,7 +161,7 @@ main {
 
 /* Header Styles */
 .header {
-  z-index: 2;
+  z-index: 1;
 }
 
 h2 {
@@ -221,7 +221,6 @@ h1 {
   top: 40%;
   left: 43.5%;
   transform: translate(-50%, -50%);
-  z-index: 0;
 }
 
 .route {
@@ -266,12 +265,12 @@ h1 {
 	51% {
 		transform: translate(280px, -50px)
 		scale(0.2);
-		z-index: 5;
+		z-index: 3;
   }
 	100% {
 		transform: translate(-300px, 50px)
 		scale(0.15);
-		z-index: 5;
+		z-index: 3;
 	}
 }
 
