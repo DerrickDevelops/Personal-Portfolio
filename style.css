@@ -875,16 +875,16 @@ li span {
   }
 
   .project1 {
-	order: 1;  
+	order: 3;  
   }
 .project2 {
-	  order: 2;
-  }
-.project3 {
 	  order: 4;
   }
+.project3 {
+	  order: 1;
+  }
 .project4 {
-	  order: 3;
+	  order: 2;
   }
 
   .info {
