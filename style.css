@@ -774,8 +774,8 @@ li span {
 
 
   /* Main Content Styles */
-  main {
-    /* Add styles for mobile here */
+  main { 
+
   }
 
   /* Header Styles */
@@ -805,6 +805,7 @@ li span {
 
   /* Sphere Section Styles */
   .sphere {
+    position: relative;
     width: 15rem;
     height: 15rem;
     top: 50%;
@@ -813,13 +814,14 @@ li span {
   }
 
   .planet-container {
-    top: 20rem;
-    left: 13rem;
+    top: 50;
+    left: 50%;
+    transform: translate(-50%, 50%);
   }
 
   .route {
-    margin-top: 1rem;
-    margin-left: 1rem;
+    margin-top: -15rem;
+    margin-left: 8rem;
   }
 
   .planet {
