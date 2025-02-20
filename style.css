@@ -812,6 +812,10 @@ li span {
 
   }
 
+  .updated-portfolio {
+    top: 21%;
+  }
+
   /* Header Styles */
   .header {
     /* Add styles for mobile here */
