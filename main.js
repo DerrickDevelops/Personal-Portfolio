@@ -69,22 +69,13 @@ window.addEventListener('scroll', function() {
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
-//   const primaryNav = document.querySelector(".primary-navigation");
-// const navToggle = document.querySelector(".mobile-nav-toggle");
+// GSAP Animation for Header
 
+document.addEventListener("DOMContentLoaded", () => {
+  gsap.from("h1", { opacity: 0, scale: 0.5, duration: 1.5, ease: "back.out(1.7)" });
 
-// navToggle.addEventListener("click", () => {
-// 	const visibility = primaryNav.getAttribute("data-visible");
+});
 
-// 	if (visibility === "false"){
-// 		primaryNav.setAttribute("data-visible", true);
-// 		navToggle.setAttribute("aria-expanded", true);
-// 	} else if (visibility === "true") {
-// 		primaryNav.setAttribute("data-visible", false);
-// 		navToggle.setAttribute("aria-expanded", false);
-// 	}
-// });
-  
 
 
 
