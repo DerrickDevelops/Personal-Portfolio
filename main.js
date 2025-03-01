@@ -73,7 +73,7 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  const tl = gsap.timeline({ defaults: { duration: 1, ease: "power2.out" } });
+  const tl = gsap.timeline({ defaults: { duration: 0.7, ease: "power2.out" } });
 
   // "V2 Coming Soon" fades in first
   tl.from(".updated-portfolio", { opacity: 0, y: -20 });
